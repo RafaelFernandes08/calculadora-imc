@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>Calculadora imc</title>
+  </head>
+  <body>
+    <div id="formulario">
+      <h1>Calculadora IMC Para Adultos</h1>
+      <br />
+      <h2>preencha os dados abaixo e descubra o seu imc</h2>
+      <p>Altura:</p>
+      <input type="number" id="txtalt" placeholder="Ex:1.75 M"/><br />
+      <p>Peso:</p>
+      <input type="number" id="txtp" placeholder="Ex:70 KG"/><br />
+      <input
+        type="button"
+        value="Calcular"
+        onclick="calcular()"
+      />
+      <br />
+      <div id="res"><p>Preencha os dados acima e receba os resultados aqui.</p></div>
+    </div>
+  </body>
+</html>
