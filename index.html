@@ -22,7 +22,50 @@
         onclick="calcular()"
       />
       <br />
-      <div id="res"><p>Preencha os dados acima e receba os resultados aqui.</p></div>
+      <div id="res"><p><section class="tabela-imc">
+    <h2>Tabela de Classificação do IMC</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>IMC</th>
+                <th>Classificação</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr id="abaixo">
+                <td>Abaixo de 18,5</td>
+                <td>Abaixo do peso</td>
+            </tr>
+
+            <tr id="normal">
+                <td>18,5 – 24,9</td>
+                <td>Peso normal</td>
+            </tr>
+
+            <tr id="sobrepeso">
+                <td>25,0 – 29,9</td>
+                <td>Sobrepeso</td>
+            </tr>
+
+            <tr id="obesidade1">
+                <td>30,0 – 34,9</td>
+                <td>Obesidade Grau I</td>
+            </tr>
+
+            <tr id="obesidade2">
+                <td>35,0 – 39,9</td>
+                <td>Obesidade Grau II</td>
+            </tr>
+
+            <tr id="obesidade3">
+                <td>40,0 ou mais</td>
+                <td>Obesidade Grau III</td>
+            </tr>
+        </tbody>
+    </table>
+</section></p></div>
     </div>
   </body>
 </html>
